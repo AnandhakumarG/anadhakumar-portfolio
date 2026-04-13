@@ -10,6 +10,7 @@ import { getDataPath, getImgPath } from '@/app/utils/paths'
 const Category = () => {
   const [category, setCategory] = useState<CategoryType[]>([])
   const [loading, setLoading] = useState(true)
+  
 
   useEffect(() => {
     const fetchData = async () => {
